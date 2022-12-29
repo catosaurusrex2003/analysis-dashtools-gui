@@ -21,7 +21,7 @@ server = app.server
 
 app.layout = html.Div([
     # dcc.RadioItems(['Fiction', 'Non Fiction'], 'Fiction',id='genre'),
-    dcc.Markdown("""[<- Go Back ](https://youtube.com/)"""),
+    dcc.Markdown("""[<- Admin Page ](https://cloud-a-thon-admin.web.app/)"""),
     dcc.Dropdown(['Fiction', 'Non Fiction'],
                      ['Fiction'],
                      id='genre',
